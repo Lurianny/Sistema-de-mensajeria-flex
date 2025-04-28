@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+}
+
+body {
+    font-family: "Open Sans", sans-serif; 
+    background-color: #cdc3ec;
+    width: 100%;
+    min-height: 100%;
+    border-top: 10px solid #cdc3ec;
+}
+h4{
+    font-size: medium;
+}
+p{
+    font-size: small;
+}
+
+.user-datos{
+    line-height: 1;
+}
+
+.maria{
+    font-size: 10px x-small;
+}
+
+section{
+    height: 100%;
+    width: 80%;
+    background-color: #fff;
+    margin-left: 1px;
+}
+
+.contactos{
+    flex-basis: 20%;
+}
+
+.imagen-hand{
+   width: 30vh;
+}
+
+.hand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1,5;
+}
+
+.muestra-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebe4;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #bec1bb;
+
+}
+.user{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    gap: 1rem;
+    line-height: 0;
+}
+
+
+.imagen-maría{
+    border-radius: 50%;
+    width: 5vh;
+}
+.new-chat{
+    background-color: #a491d2;
+    border:none;
+    width: 80%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 20px 10px 20px;
+}
+
+.contacts-list{
+    flex-grow: 2;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #bec1bb;
+    cursor: pointer;
+    line-height: 1,5;
+    
+}
+.contact img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
